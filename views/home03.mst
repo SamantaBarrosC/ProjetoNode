@@ -1,0 +1,19 @@
+<body style="color: pink; list-style:none">
+
+<h1>Histórico Escolar completo</h1>
+
+{{#mostrar}}
+
+<hr/>
+
+<li>
+  {{#historico}}
+  <li>{{.}}</li>
+  {{/historico}}
+</li>
+ 
+<hr/>
+
+{{/mostrar}}
+
+</body>

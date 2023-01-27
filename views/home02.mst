@@ -1,0 +1,19 @@
+
+<body style="color:red; list-style:none">
+<h1>Grade de horária do 1ºSem/2023 do terceiro modulo</h1>
+
+{{#mostrar}}
+
+<hr/>
+
+<li>
+  {{#grade}}
+  <li>{{.}}</li>
+  {{/grade}}
+<li/>
+
+{{/mostrar}}
+
+<hr/>
+
+</body>
